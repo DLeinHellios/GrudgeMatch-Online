@@ -1,0 +1,47 @@
+/* CSS Stylesheet */
+
+body {
+  background-image: url(../img/bg.svg);
+  background-repeat: no-repeat;
+  background-position: center -25%;
+  background-color: #231F20;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.navbar-custom {
+  background-color: #231F20;
+  font-family: "Odibee Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+.navbar-custom a:hover {
+  color: #F68A20;
+}
+
+.navbar-brand {
+  color: #F68A20;
+  font-size: 1.8rem;
+}
+
+.nav-link {
+  color: #F68A20;
+}
+
+.navbar-nav a:hover {
+  color: #FABD20;
+  text-decoration: underline;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: solid;
+  outline-width: 1px;
+  outline-color: #F68A20;
+  box-shadow: none;
+}
