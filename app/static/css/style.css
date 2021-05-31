@@ -3,19 +3,30 @@
 body {
   background-image: url(../img/bg.svg);
   background-repeat: no-repeat;
-  background-position: center -25%;
+  background-position: center 50px;
   background-color: #231F20;
+  background-attachment: fixed;
 
   font-family: "Open Sans", sans-serif;
+  color: white;
 }
 
-.nav-container {
-  max-width: 1400px;
-  margin: auto;
+h1 {
+  font-family: "Odibee Sans", sans-serif;
+  color: #F68A20;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 .navbar-custom {
-  background-color: #231F20;
+  background:#231F20;
+  background:rgba(35,31,32,0.75);
   font-family: "Odibee Sans", sans-serif;
   font-size: 1.4rem;
 }
@@ -45,13 +56,37 @@ body {
   outline-color: #F68A20;
   box-shadow: none;
 }
-.footer,
+
+.content {
+  background:#231F20;
+  background:rgba(35,31,32,0.75);
+  margin: 10px 0 16px 0;
+  padding: 6px;
+}
+
+.footer {
+  color: #F68A20;
+  background: none;
+  font-family: "Odibee Sans", sans-serif;
+  text-decoration: none;
+  margin: 10px;
+}
+
 .footer a {
   color: #F68A20;
   background: none;
   font-family: "Odibee Sans", sans-serif;
+  text-decoration: none;
 }
 
 .footer a:hover {
   color: #FABD20;
+  text-decoration: underline;
+}
+
+.separator {
+  height: 2px;
+  margin: 12px auto;
+  width: 80%;
+  background-color: #F68A20;
 }
