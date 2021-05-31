@@ -45,3 +45,13 @@ body {
   outline-color: #F68A20;
   box-shadow: none;
 }
+.footer,
+.footer a {
+  color: #F68A20;
+  background: none;
+  font-family: "Odibee Sans", sans-serif;
+}
+
+.footer a:hover {
+  color: #FABD20;
+}
